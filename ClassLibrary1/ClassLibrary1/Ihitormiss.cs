@@ -8,7 +8,7 @@ namespace WeaponClass
 {
     interface IhitOrMiss
     {
-        void hit()
+        void hit();
         void miss();
     }
 }
