@@ -24,21 +24,22 @@ namespace ConsoleApp1
 
             if (MeleeMenu.Key == ConsoleKey.D1)
             {
-                Console.WriteLine("input base damage");
+                Console.WriteLine("input base melee damage");
                 Console.WriteLine();
                 int userBD = int.Parse(Console.ReadLine());
                 Console.WriteLine();
-                Console.WriteLine("input base range");
+                Console.WriteLine("input base melee range");
                 Console.WriteLine();
                 int userBR = int.Parse(Console.ReadLine());
                 Console.WriteLine();
-                Console.WriteLine("input base crit damage");
+                Console.WriteLine("input base melee crit damage");
                 Console.WriteLine();
                 int userBCD = int.Parse(Console.ReadLine());
                 Console.WriteLine();
                 Melee newMelee = new Melee(userBD, userBR, userBCD, 85);
                 Console.WriteLine();
-                Console.WriteLine(newMelee.meleeAttack());
+                string meleeResult =  newMelee.meleeAttack();
+                Console.WriteLine(meleeResult);
             }
 
 
