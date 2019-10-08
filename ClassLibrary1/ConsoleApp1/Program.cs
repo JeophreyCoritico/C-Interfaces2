@@ -38,11 +38,9 @@ namespace ConsoleApp1
                 Console.WriteLine();
                 Melee newMelee = new Melee(userBD, userBR, userBCD, 85);
                 Console.WriteLine();
-                string meleeResult =  newMelee.meleeAttack();
+                string meleeResult = newMelee.meleeAttack();
                 Console.WriteLine(meleeResult);
             }
-
-
         }
     }
 }
