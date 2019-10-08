@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ClassLibrary1
+namespace WeaponClass
 {
-    public class Class1
+    interface IhitOrMiss
     {
-        testak;wdnawkdnawdkl;amdl;awm
+        void hit()
+        void miss();
     }
 }
